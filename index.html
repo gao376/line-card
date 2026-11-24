@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>分享老高的名片</title>
+<style>
+  body { margin:0; font-family:"Noto Sans TC","Microsoft JhengHei",sans-serif; background:#F2F6FC; color:#0F2A55;
+         min-height:100vh; display:flex; align-items:center; justify-content:center; text-align:center; padding:24px; box-sizing:border-box; }
+  .box { max-width:360px; }
+  h1 { font-size:20px; margin:0 0 8px; }
+  p { color:#5B6B82; font-size:14px; line-height:1.6; }
+  button { margin-top:16px; width:100%; padding:14px; border:0; border-radius:10px; background:#1A4B8C; color:#fff; font-size:16px; }
+</style>
+<script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+<script src="card.js"></script>
+</head>
+<body>
+<div class="box">
+  <h1 id="msg">正在開啟分享…</h1>
+  <p id="sub">選好要傳給哪位好友或群組，名片就會送出。</p>
+  <button id="again" hidden>再分享一次</button>
+</div>
+<script>
+  const { CONFIG, buildFlex } = window.SenlanCard;
+  const $ = (id) => document.getElementById(id);
+
+  async function share() {
+    if (!liff.isApiAvailable("shareTargetPicker")) {
+      $("msg").textContent = "請用 LINE 開啟這個連結";
+      $("sub").textContent = "分享名片要在 LINE 裡操作。把這個網址貼到 LINE 對話裡再點開即可。";
+      return;
+    }
+    const res = await liff.shareTargetPicker([buildFlex()], { isMultiple: true });
+    $("again").hidden = false;
+    if (res) {
+      $("msg").textContent = "名片已送出，謝謝你的分享！";
+      $("sub").textContent = "可以再分享給其他朋友，或直接關閉這個畫面。";
+    } else {
+      $("msg").textContent = "已取消分享";
+      $("sub").textContent = "";
+    }
+  }
+
+  liff.init({ liffId: CONFIG.liffId })
+    .then(() => {
+      if (!liff.isLoggedIn()) { liff.login({ redirectUri: location.href }); return; }
+      return share();
+    })
+    .catch((e) => {
+      $("msg").textContent = "開啟失敗";
+      $("sub").textContent = String(e && e.message || e);
+    });
+
+  $("again").addEventListener("click", () => share().catch((e) => { $("sub").textContent = String(e.message || e); }));
+</script>
+</body>
+</html>

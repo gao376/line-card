@@ -1,0 +1,543 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "size": "mega",
+      "hero": {
+        "type": "image",
+        "url": "https://gao376.github.io/line-card/img/gao-hero.jpg",
+        "size": "full",
+        "aspectRatio": "4:5",
+        "aspectMode": "cover",
+        "action": {
+          "type": "uri",
+          "label": "加好友",
+          "uri": "https://line.me/ti/p/J-dgUsoi00"
+        }
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "paddingAll": "12px",
+        "contents": [
+          {
+            "type": "button",
+            "style": "primary",
+            "color": "#1A4B8C",
+            "height": "md",
+            "action": {
+              "type": "uri",
+              "label": "+ 加 LINE 好友",
+              "uri": "https://line.me/ti/p/J-dgUsoi00"
+            }
+          },
+          {
+            "type": "button",
+            "style": "secondary",
+            "color": "#E3ECF9",
+            "height": "md",
+            "action": {
+              "type": "uri",
+              "label": "分享我的名片",
+              "uri": "https://liff.line.me/0000000000-XXXXXXXX"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "mega",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "paddingAll": "20px",
+        "background": {
+          "type": "linearGradient",
+          "angle": "135deg",
+          "startColor": "#0F2A55",
+          "endColor": "#2F80ED"
+        },
+        "contents": [
+          {
+            "type": "text",
+            "text": "SERVICES",
+            "size": "xs",
+            "color": "#9EC3FF",
+            "weight": "bold"
+          },
+          {
+            "type": "text",
+            "text": "我可以幫你做的事",
+            "size": "xl",
+            "color": "#FFFFFF",
+            "weight": "bold",
+            "margin": "sm"
+          }
+        ]
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "paddingAll": "20px",
+        "spacing": "lg",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "md",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "width": "28px",
+                "height": "28px",
+                "cornerRadius": "14px",
+                "backgroundColor": "#F2F6FC",
+                "justifyContent": "center",
+                "alignItems": "center",
+                "flex": 0,
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "1",
+                    "size": "sm",
+                    "color": "#1A4B8C",
+                    "weight": "bold",
+                    "align": "center"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "網站設計",
+                    "size": "md",
+                    "weight": "bold",
+                    "color": "#0F2A55"
+                  },
+                  {
+                    "type": "text",
+                    "text": "品牌官網・電商・Landing Page",
+                    "size": "xs",
+                    "color": "#5B6B82",
+                    "wrap": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "md",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "width": "28px",
+                "height": "28px",
+                "cornerRadius": "14px",
+                "backgroundColor": "#F2F6FC",
+                "justifyContent": "center",
+                "alignItems": "center",
+                "flex": 0,
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "2",
+                    "size": "sm",
+                    "color": "#1A4B8C",
+                    "weight": "bold",
+                    "align": "center"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "SEO 與內容",
+                    "size": "md",
+                    "weight": "bold",
+                    "color": "#0F2A55"
+                  },
+                  {
+                    "type": "text",
+                    "text": "關鍵字研究・AI 文案・成效報表",
+                    "size": "xs",
+                    "color": "#5B6B82",
+                    "wrap": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "md",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "width": "28px",
+                "height": "28px",
+                "cornerRadius": "14px",
+                "backgroundColor": "#F2F6FC",
+                "justifyContent": "center",
+                "alignItems": "center",
+                "flex": 0,
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "3",
+                    "size": "sm",
+                    "color": "#1A4B8C",
+                    "weight": "bold",
+                    "align": "center"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "整合廣告投放",
+                    "size": "md",
+                    "weight": "bold",
+                    "color": "#0F2A55"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Google・Meta・YouTube",
+                    "size": "xs",
+                    "color": "#5B6B82",
+                    "wrap": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "md",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "width": "28px",
+                "height": "28px",
+                "cornerRadius": "14px",
+                "backgroundColor": "#F2F6FC",
+                "justifyContent": "center",
+                "alignItems": "center",
+                "flex": 0,
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "4",
+                    "size": "sm",
+                    "color": "#1A4B8C",
+                    "weight": "bold",
+                    "align": "center"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "AI 影音",
+                    "size": "md",
+                    "weight": "bold",
+                    "color": "#0F2A55"
+                  },
+                  {
+                    "type": "text",
+                    "text": "短影音・形象影片",
+                    "size": "xs",
+                    "color": "#5B6B82",
+                    "wrap": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "md",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "width": "28px",
+                "height": "28px",
+                "cornerRadius": "14px",
+                "backgroundColor": "#F2F6FC",
+                "justifyContent": "center",
+                "alignItems": "center",
+                "flex": 0,
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "5",
+                    "size": "sm",
+                    "color": "#1A4B8C",
+                    "weight": "bold",
+                    "align": "center"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "LINE 自動化",
+                    "size": "md",
+                    "weight": "bold",
+                    "color": "#0F2A55"
+                  },
+                  {
+                    "type": "text",
+                    "text": "機器人・表單・AI 課程",
+                    "size": "xs",
+                    "color": "#5B6B82",
+                    "wrap": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "paddingAll": "12px",
+        "contents": [
+          {
+            "type": "button",
+            "style": "primary",
+            "color": "#1A4B8C",
+            "height": "md",
+            "action": {
+              "type": "uri",
+              "label": "+ 加 LINE 好友",
+              "uri": "https://line.me/ti/p/J-dgUsoi00"
+            }
+          },
+          {
+            "type": "button",
+            "style": "secondary",
+            "color": "#E3ECF9",
+            "height": "md",
+            "action": {
+              "type": "uri",
+              "label": "分享我的名片",
+              "uri": "https://liff.line.me/0000000000-XXXXXXXX"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "mega",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "paddingAll": "20px",
+        "background": {
+          "type": "linearGradient",
+          "angle": "135deg",
+          "startColor": "#0F2A55",
+          "endColor": "#2F80ED"
+        },
+        "contents": [
+          {
+            "type": "text",
+            "text": "CONTACT",
+            "size": "xs",
+            "color": "#9EC3FF",
+            "weight": "bold"
+          },
+          {
+            "type": "text",
+            "text": "聯絡我",
+            "size": "xl",
+            "color": "#FFFFFF",
+            "weight": "bold",
+            "margin": "sm"
+          }
+        ]
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "paddingAll": "20px",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "paddingAll": "12px",
+            "cornerRadius": "10px",
+            "backgroundColor": "#F2F6FC",
+            "action": {
+              "type": "uri",
+              "label": "電話（點一下撥打）",
+              "uri": "tel:0935589713"
+            },
+            "contents": [
+              {
+                "type": "text",
+                "text": "電話（點一下撥打）",
+                "size": "xxs",
+                "color": "#5B6B82"
+              },
+              {
+                "type": "text",
+                "text": "0935-589-713",
+                "size": "md",
+                "color": "#0F2A55",
+                "weight": "bold",
+                "wrap": true
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "paddingAll": "12px",
+            "cornerRadius": "10px",
+            "backgroundColor": "#F2F6FC",
+            "action": {
+              "type": "uri",
+              "label": "Email",
+              "uri": "mailto:gaoads@senlan.com.tw"
+            },
+            "contents": [
+              {
+                "type": "text",
+                "text": "Email",
+                "size": "xxs",
+                "color": "#5B6B82"
+              },
+              {
+                "type": "text",
+                "text": "gaoads@senlan.com.tw",
+                "size": "md",
+                "color": "#0F2A55",
+                "weight": "bold",
+                "wrap": true
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "paddingAll": "12px",
+            "cornerRadius": "10px",
+            "backgroundColor": "#F2F6FC",
+            "action": {
+              "type": "uri",
+              "label": "官網",
+              "uri": "https://senlan.com.tw/"
+            },
+            "contents": [
+              {
+                "type": "text",
+                "text": "官網",
+                "size": "xxs",
+                "color": "#5B6B82"
+              },
+              {
+                "type": "text",
+                "text": "senlan.com.tw",
+                "size": "md",
+                "color": "#0F2A55",
+                "weight": "bold",
+                "wrap": true
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "paddingAll": "12px",
+            "cornerRadius": "10px",
+            "backgroundColor": "#F2F6FC",
+            "action": {
+              "type": "uri",
+              "label": "作品集",
+              "uri": "https://senlan.com.tw/"
+            },
+            "contents": [
+              {
+                "type": "text",
+                "text": "作品集",
+                "size": "xxs",
+                "color": "#5B6B82"
+              },
+              {
+                "type": "text",
+                "text": "看我們做過的網站",
+                "size": "md",
+                "color": "#0F2A55",
+                "weight": "bold",
+                "wrap": true
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "paddingAll": "12px",
+        "contents": [
+          {
+            "type": "button",
+            "style": "primary",
+            "color": "#1A4B8C",
+            "height": "md",
+            "action": {
+              "type": "uri",
+              "label": "+ 加 LINE 好友",
+              "uri": "https://line.me/ti/p/J-dgUsoi00"
+            }
+          },
+          {
+            "type": "button",
+            "style": "secondary",
+            "color": "#E3ECF9",
+            "height": "md",
+            "action": {
+              "type": "uri",
+              "label": "分享我的名片",
+              "uri": "https://liff.line.me/0000000000-XXXXXXXX"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
