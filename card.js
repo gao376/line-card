@@ -2,7 +2,7 @@
 // 改名片內容只要改 CONFIG；index.html（LIFF 分享頁）與 node build-flex.js 都讀這份。
 (function (root) {
   const CONFIG = {
-    liffId: "0000000000-XXXXXXXX",            // 待補：LINE Developers 建好 LIFF 後填入
+    liffId: "2011321052-WtH733kD",            // senlan channel 的 LIFF「老高電子名片」
     addFriendUrl: "https://line.me/ti/p/J-dgUsoi00",  // 老高個人 LINE
     photoUrl: "https://gao376.github.io/line-card/img/gao-hero.jpg", // 主圖 1040×1300
     name: "老高",
